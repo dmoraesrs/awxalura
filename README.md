@@ -13,4 +13,11 @@ Para realização da troca de chaves necessitamos que o usuario exista nos dois 
 
 ssh-copy-id -i /home/sshuser/.ssh/id_rsa.pub sshuser@ipdoservidor
 
+
+Para a instalação do AWX há o playbook setup-awx.yml o mesmo poderá ser executado chamando o arquivo de inventário que será criado dinamicamente no path: /tmp/awx/installer/inventoryng. 
+A Sintaxe para a execução do playbook devera ser:
+
+ansible-playbook -i hosts setup-awx.yml
+
+
 ***
