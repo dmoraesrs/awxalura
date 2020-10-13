@@ -1,0 +1,7 @@
+[awx]
+127.0.0.1
+
+[webserver]
+
+[dbserver]
+127.0.0.1
