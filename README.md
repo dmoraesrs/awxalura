@@ -9,7 +9,7 @@ ssh-keygen
 Abaixo o resultado da execução do comando.
 ![comando](https://github.com/dmoraesrs/images/blob/master/ssh.png)
 
-Para realização da troca de chaves necessitaos que o usuario exista nos dois servidores. A copia deverá ser realizada atraves do comando:
+Para realização da troca de chaves necessitamos que o usuario exista nos dois servidores. A copia deverá ser realizada atraves do comando:
 
 ssh-copy-id -i /home/sshuser/.ssh/id_rsa.pub sshuser@ipdoservidor
 
