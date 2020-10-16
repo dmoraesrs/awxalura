@@ -1,3 +1,10 @@
+# Requisitos
+Como editor dos códigos que iremos criar utilizaremos o [vscode](https://code.visualstudio.com/), mas pode ser utilizado outro editor de sua preferencia.
+
+Como virtualizador iremos utilizar o [virtualbox](https://www.virtualbox.org/) mas pode ser utilizado outro virtualizador de sua preferencia.
+
+Para versionador utilizaremos o [https://github.com/](github) e ferramenta de linha de comando o git.
+
 # Inicio
 
 Para iniciar o projeto iremos inicialmente criar nosso repositório no github.
