@@ -54,12 +54,13 @@ A estrutura do projeto será composta de 2 servidores com funções dstintas cad
 
 ![Projeto](https://github.com/dmoraesrs/images/blob/master/Captura%20de%20tela%20de%202020-10-16%2014-13-37.png)
 
-Para o servidor de banco de dados utilizaremos a versão do linux CentOs 7.
+Para o servidor de Webserver utilizaremos a versão do linux CentOs 7.
 Para o servidor de banco de dados utilizaremos a versão do linux Ubuntu 18.04.
 
 Para a configuração dos serviços de webserver e banco de dados serão crido duas roles conforme a baixo:
 
 * role webserver: Neste serviço será utilizado o **Apache** com modulos PHP.
+
 * role db-server: Neste serviço será utilizado o **MariaDB**.
 
 
