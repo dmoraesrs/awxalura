@@ -80,6 +80,7 @@ Após a criação das roles será demonstrado a estrutura dos diretórios e expl
 Para variaveis utilizaremos facts e variveis com definições de Url, parametros de configuração.
 
 **ansible_facts['distribution'] == "CentOS"**
+
 **ansible_facts['distribution'] == "Ubuntu"**
 
 
@@ -89,9 +90,7 @@ Na camada de seguraça utilizaremos o ansible-vault para criptografia dos dados 
 
 **Senhas de banco de dados.**
 
-
 **my.cnf**
-
 
 **arquivos de configuraçao do wordpress.**
 

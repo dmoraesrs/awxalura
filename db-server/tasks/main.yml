@@ -1,0 +1,3 @@
+---
+# tasks file for db-server
+- include_tasks: install-db.yml
