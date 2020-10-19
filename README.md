@@ -5,6 +5,23 @@ Como virtualizador iremos utilizar o [virtualbox](https://www.virtualbox.org/) m
 
 Para versionador utilizaremos o [https://github.com/](github) e ferramenta de linha de comando o git.
 
+# Instalar o ansible previamente
+
+- name: Adicionando repositório***
+    repo: ppa:ansible/ansible
+    update_cache: yes
+
+- name: Install a list of packages
+  apt:
+    pkg:
+    - apt-transport-https
+    - ca-certificates
+    - curl
+    - git
+    - ansible
+    update_cache: yes
+
+
 # Inicio
 
 Para iniciar o projeto iremos inicialmente criar nosso repositório no github.

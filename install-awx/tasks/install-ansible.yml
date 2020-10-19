@@ -1,0 +1,19 @@
+- name: Adicionando repositório
+  apt_repository:
+    repo: ppa:ansible/ansible
+    update_cache: yes
+
+- name: Install a list of packages
+  apt:
+    pkg:
+    - apt-transport-https
+    - ca-certificates
+    - curl
+    - git
+    - gnupg2  
+    - software-properties-common
+    - python3-pip
+    - npm
+    - nodejs
+    - ansible
+    update_cache: yes
