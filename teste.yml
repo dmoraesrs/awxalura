@@ -1,11 +1,11 @@
+---
+
 - hosts: awx
-  become: yes
-  user: dmoraes
   tasks:
-  - name: Create file
-  file:
-  path: /tmp/testeawsx.txt
-  state: touch
+  - name: Creating an empty file
+    file:
+      path: "/tmp/teste"
+      state: touch
     
 
   
