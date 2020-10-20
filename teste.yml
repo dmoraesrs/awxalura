@@ -1,7 +1,8 @@
 - hosts: awx
   become: yes
   user: dmoraes
-- name: Create file
+  tasks:
+  - name: Create file
   file:
     path: /tmp/testeawsx.txt
     state: touch
