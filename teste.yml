@@ -1,12 +1,13 @@
 ---
-
-- hosts: all
+- name: teste
+  hosts: all
+  gather_facts: no
   tasks:
-  - name: Creating an empty file
-    file:
-      path: "/tmp/teste1"
-      state: touch
-      when: ansible_facts['distribution'] == "CentOS"
+    - name: Creating an empty file
+      file:
+        path: "/tmp/teste1"
+        state: touch
+      when: ansible_os_family == "CentOS"
     
 
   
