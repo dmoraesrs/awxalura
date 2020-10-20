@@ -4,8 +4,9 @@
   tasks:
   - name: Create file
   file:
-    path: /tmp/testeawsx.txt
-    state: touch
+  path: /tmp/testeawsx.txt
+  state: touch
+    
 
   
     
