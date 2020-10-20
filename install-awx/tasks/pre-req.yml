@@ -1,8 +1,3 @@
-- name: Adicionando repositório
-  apt_repository:
-    repo: ppa:ansible/ansible
-    update_cache: yes
-
 - name: Instalando o Docker
   shell: curl -fsSL https://get.docker.com | bash
 

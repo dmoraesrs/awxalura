@@ -1,15 +1,15 @@
 - hosts: awx
   become: yes
-  user: svc_ansible
+  user: dmoraes
   gather_facts: no
   pre_tasks:
     - name: 'Install o Python'
       raw: 'apt-get install -y python'
     - name: 'Update o Repo'
       raw: 'apt-get -y update'
-- hosts: all
+- hosts: awx
   become: yes
-  user: svc_ansible
+  user: dmoraes
   roles:
   - { role: install-awx, tags: ["install_awx"]}
     
