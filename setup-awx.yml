@@ -1,4 +1,5 @@
 - hosts: awx
+  strategy: debug
   become: yes
   user: dmoraes
   gather_facts: no
@@ -8,6 +9,7 @@
     - name: 'Update o Repo'
       raw: 'apt-get -y update'
 - hosts: awx
+  strategy: debug
   become: yes
   user: dmoraes
   roles:
