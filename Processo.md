@@ -4,7 +4,7 @@
 
 **2 VMS**
 
-### db-server
+### Webserver
 * Ubuntu Server 18.04
 * Ansible 2.9
 * Docker
@@ -13,7 +13,7 @@
 * Mariadb
 * ssh-key private
 
-### Webserver
+### db-server
 * CentOs 7
 * Docker
 * Apache+PHP(docker)
